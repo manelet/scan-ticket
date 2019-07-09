@@ -1,0 +1,29 @@
+{
+  "name": "@scan-ticket/app",
+  "main": "node_modules/expo/AppEntry.js",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Manel García <manelet@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo start",
+    "android": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo start --android",
+    "ios": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo start --ios",
+    "web": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo start --web",
+    "eject": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo eject",
+    "start:dev": "npm run start"
+  },
+  "dependencies": {
+    "expo": "^33.0.0",
+    "expo-camera": "~5.0.1",
+    "expo-permissions": "~5.0.1",
+    "react": "16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native-web": "^0.11.4"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.1.1"
+  },
+  "private": true
+}
