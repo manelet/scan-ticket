@@ -6,11 +6,11 @@
   "author": "Manel García <manelet@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "start": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo start",
-    "android": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo start --android",
-    "ios": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo start --ios",
-    "web": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo start --web",
-    "eject": "/Users/manel/.nvm/versions/node/10.5.0/bin/expo eject",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
     "start:dev": "npm run start"
   },
   "dependencies": {
